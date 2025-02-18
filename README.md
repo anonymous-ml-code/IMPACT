@@ -7,33 +7,33 @@ Official Repo of ***IMPACT: Integrating Modern Phology-Pharmacology And Chinese 
 
 <!--<img src="./images/mainfig.png" width="70%">-->
 <div align="center">
-  <img src=".\images\mainfig.png">
+  <img src=".\images\framework7.png">
 </div>
 <p align="center">
- Figure1: Overview of our M2PT approach. Here, visual prompts are embedded into each layer of the Visual Encoder, and textual prompts are embedded into each layer of the LLM. These prompts facilitate the extraction and alignment of features across modalities (e.g., vision, language). The cross-modality interaction between visual and textual features is enhanced through layered integration, ultimately improving the model's capability in zero-shot instruction learning tasks.
+ Figure1: The role of MM pathology and MM pharmacology serve as a scientific bridge to understand the TCM symptom and TCM prescription. To connect the modern disease diagnosis and the TCM prescription, our method can help practitioners without TCM backgrounds and boost TCM modernization.
 </p>
 
 ## Install
 
-1.  Clone this repository and navigate to LLaVA folder
+1.  Clone this repository
 
 ```bash
-git@github.com:William-wAng618/M2PT.git
-cd M2PT
+git@github.com:anonymous-ml-code/IMPACT.git
+cd IMPACT
 ```
 
 2.  Install Package
 
 ```Shell
-conda create -n M2PT python=3.10 -y
-conda activate M2PT
+conda create -n IMPACT python=3.10 -y
+conda activate IMPACT
 pip install --upgrade pip  # enable PEP 660 support
 pip install -e .
 ```
 
 3.  Start training.
-
-There are several parameter need to be notice in **==\scripts\TCM_prescription.py**
-
+```Shell
+\scripts\TCM_prescription.py
+```
 
 
