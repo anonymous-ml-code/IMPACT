@@ -5,9 +5,9 @@ Official Repo of ***IMPACT: Integrating Modern Phology-Pharmacology And Chinese 
 (👉Under construction! The RoBERTa fine-tuning code is uploaded. However, the full proceses of the training codes are not perfectly ready for formal release under review stage. I will gradually update it! Please stay tuned.)
 
 
-<!--<img src="./images/mainfig.png" width="70%">-->
+<!--<img src="./framework.png" width="70%">-->
 <div align="center">
-  <img src="framework.png">
+  <img src="./framework.png">
 </div>
 <p align="center">
  Figure1: The role of MM pathology and MM pharmacology serve as a scientific bridge to understand the TCM symptom and TCM prescription. To connect the modern disease diagnosis and the TCM prescription, our method can help practitioners without TCM backgrounds and boost TCM modernization.
